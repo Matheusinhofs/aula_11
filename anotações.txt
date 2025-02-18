@@ -1,0 +1,38 @@
+Introdução a POO
+
+- É interessante pensar em POO quando outras áreas começam a usar suas aplicações
+- Pensar uma função de acessar o banco e outra de caregar dados interagirem como dois objetos
+- Quando alguém for utilizar pode navegar nele e entender como que foi feito
+- Funções dentro de classes são os métodos
+- init é uma função que vai iniciar toda a classe
+- o self quer dizer que cada função só vai falar com o seu próprio, não vai ter interferência de outro externo
+- os métodos podem receber outros parâmetros quando for evocar uma função
+- Na classe vai alocar um pedaço da memória do computador
+- Entender os elementos fundamentais do projeto
+    - O que há em comum entre os elementos do projeto
+    - Pré definir quais são os mesmos comportamentos e elementos
+- Classe é um catalizador de um código mais complexo
+- Classe abstrata é uma classe que define métodos mas sem o desenvolvimento do método. Tipo um fluxo já definido
+
+ex: 
+class calculador:
+    receber_dados
+    calcular_kpi
+    salvar_kpi
+
+mkt, vendas, rh,...
+
+- Processo de herança de uma class:
+    - Uma class pode ter hierarquias que tem herança de características comuns
+    - A classe que vem abaixo recebe os atributos de todas as de cima 
+    - Se uma classe acima recebe um atributo, as classes abaixo vão receber o mesmo atributo de forma automática
+    - 
+
+- UML -> usado para documentar as classes do projeto e etc.
+- Encapsulamento
+    - Criar uma classe em que não de a obrigação ao programador a cuidar das conexões
+    - Ao invés do usuário saber como conectar com o banco de dados, ele vai lá e utiliza a classe
+        - Mesma coisa que o pandas faz com o pd.readExcel
+    - Cria uma classe com o método de conectar, desconectar e executar a query
+
+- Normalmente usado quando quer que outras pessoas usem seus métodos
